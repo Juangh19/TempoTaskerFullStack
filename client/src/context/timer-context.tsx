@@ -72,7 +72,7 @@ export default function TimerContextProvider({
 		if (isRunning) {
 			const timer = setInterval(() => {
 				setSeconds((prevSeconds) => prevSeconds + 1);
-			}, 10);
+			}, 1000);
 
 			return () => clearInterval(timer);
 		}
