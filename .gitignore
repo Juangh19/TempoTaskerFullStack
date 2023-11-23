@@ -1,0 +1,22 @@
+# Ignorar la configuración del entorno
+.env
+
+# Ignorar la carpeta de módulos de Node
+/node_modules
+
+# Ignorar la carpeta de compilación de React
+/client/build
+
+# Ignorar los archivos de registro
+*.log
+
+# Ignorar los archivos de caché
+*.cache
+
+# Ignorar los archivos de configuración del editor
+.vscode
+.idea
+
+# Ignorar los archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
